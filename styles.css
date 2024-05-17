@@ -4,6 +4,9 @@ body {
     padding: 0;
     background-color: #f0f8ff;
     color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 header {
     background-color: #4682b4;
@@ -24,19 +27,19 @@ nav a {
 }
 section {
     padding: 20px;
+    flex: 1;
 }
 .container {
     max-width: 1000px;
-    margin: 0 auto;
+    margin: auto;
+    margin-left: 10%;
 }
 footer {
     background-color: #4682b4;
     color: white;
     text-align: center;
     padding: 10px 0;
-    position: fixed;
     width: 100%;
-    bottom: 0;
 }
 .download-resume {
     display: block;
