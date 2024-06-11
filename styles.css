@@ -2,14 +2,14 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f8ff;
+    background-color: #F6F7EB;
     color: #333;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
 header {
-    background-color: #4682b4;
+    background-color: #35605A;
     color: white;
     padding: 20px;
     text-align: center;
@@ -17,7 +17,7 @@ header {
 nav {
     display: flex;
     justify-content: center;
-    background-color: #87ceeb;
+    background-color: #78586F;
     padding: 10px 0;
 }
 nav a {
@@ -34,20 +34,38 @@ section {
     margin: auto;
     margin-left: 10%;
 }
+
+.container h2 {
+    color: #35605A;
+}
 footer {
-    background-color: #4682b4;
+    background-color: #35605A;
     color: white;
     text-align: center;
     padding: 10px 0;
     width: 100%;
+}
+
+.download-resume-2 {
+    display: flex;
+    margin-left: 10%;
+    text-align: center;
+}
+.download-resume-2 a {
+    background-color: #78586F;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
 }
 .download-resume {
     display: block;
     margin: 20px 0;
     text-align: center;
 }
+
 .download-resume a {
-    background-color: #4682b4;
+    background-color: #78586F;
     color: white;
     padding: 10px 20px;
     text-decoration: none;
@@ -55,4 +73,9 @@ footer {
 }
 .portfolio-item {
     margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.experience-item {
+    margin-left: 20px;
 }
