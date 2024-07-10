@@ -79,3 +79,7 @@ footer {
 .experience-item {
     margin-left: 20px;
 }
+
+.company-description {
+    font-style: italic;
+}
