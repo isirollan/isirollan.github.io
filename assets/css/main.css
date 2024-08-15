@@ -2044,6 +2044,15 @@ input, select, textarea {
 		position: relative;
 	}
 
+	.custom-image {
+		border-radius: 0.35em;
+		border: 0;
+		display: inline-block;
+		position: relative;
+		width: 50vh;
+		height:auto 
+	}
+
 		.image:before {
 			-moz-transition: opacity 0.2s ease-in-out;
 			-webkit-transition: opacity 0.2s ease-in-out;
@@ -3225,3 +3234,37 @@ input, select, textarea {
 			}
 
 	}
+
+/* Accordion */
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+	cursor: pointer;
+	padding: 10px;
+	width: 100%;
+	border: none;
+	text-align: left;
+	outline: none;
+  }
+.collapsible:after {
+	content: '\02795'; /* Unicode character for "plus" sign (+) */
+	font-size: 13px;
+	float: right;
+	margin-left: 5px;
+  }
+  
+.active:after {
+	content: "\2796"; /* Unicode character for "minus" sign (-) */
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+	color: #49bf9d !important;
+  }
+  
+  /* Style the collapsible content. Note: hidden by default */
+.content {
+	padding: 0 18px;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
+  }
